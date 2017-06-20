@@ -1,0 +1,60 @@
+\begin{titlepage}
+
+\begin{center}
+\textbf{NHẬN XÉT CỦA GIÁO VIÊN PHẢN BIỆN}	\\
+
+\begin{tikzpicture}[remember picture, overlay]
+  \draw[line width = 1pt] ($(current page.north west) + (2cm,-2cm)$) rectangle ($(current page.south east) + (-1.5cm,2cm)$);
+\end{tikzpicture}
+
+\end{center}
+
+Bài toán kiểm lỗi chính tả là một trong những bài toán cơ bản và quen thuộc trong xử lý ngôn ngữ tự nhiên.
+Giải quyết bài toán này giúp cho người sử dụng máy tính tránh được những lỗi văn bản không đáng có do nhầm lẫn khi gõ trên bàn phím hay do thói quen phát âm chưa chuẩn,...
+
+Trong xử lý ngôn ngữ tự nhiên tiếng Việt đã có những công trình giải quyết bài toán này trong những năm qua, mặc dù vẫn còn lẻ tẻ.
+Khoá luận tốt nghiệp này đóng góp thêm một lời giải cho bài toán này.
+
+Rõ ràng rằng việc phát hiện ra lỗi có thể đơn giản trong trường hợp tiếng không xuất hiện trong từ điển (lỗi non-syllable) nhưng khi tiếng đó thực sự tồn tại thì việc quyết định đó phải là lỗi sai hay không phụ thuộc nhiều vào ngữ cảnh các tiếng xung quanh.
+Hơn nữa, bài toán này không chỉ dừng ở mức phát hiện lỗi mà phải đến mức đề xuất phương án sửa lỗi sai đó.
+
+Khoá luận này đã chọn được hướng tiếp cận thích hợp khi sử dụng liên kết ngữ cảnh để xác định lỗi sai.
+Đồng thời lựa chọn ứng viên thích hợp từ tập ứng viên phát sinh được để đề xuất cách sửa lỗi.
+
+Khoá luận này được phát triển trên cơ sở của nhóm tác giả Nguyễn Thị Xuân Hương và có thêm cải tiến nhờ vào sự quan sát, lý luận và thử nghiệm.
+Đóng góp chính của khoá luận là thay đổi hàm quyết định trong liên kết ngữ cảnh (dùng hàm max thay vì hàm trung bình nhân) và đưa ra ngưỡng động (thay vì ngưỡng tĩnh) trên cơ sở của lý thuyết Noisy Channel.
+
+\newpage
+\pagenumbering{gobble}
+
+\begin{tikzpicture}[remember picture, overlay]
+  \draw[line width = 1pt] ($(current page.north west) + (2cm,-2cm)$) rectangle ($(current page.south east) + (-1.5cm,2cm)$);
+\end{tikzpicture}
+
+Tác giả khoá luận đã dành nhiều công sức thu thập và xây dựng ngữ liệu hợp lý (trên sự hỗ trợ của các cộng tác viên) để bước đầu có thể dùng để thử nghiệm và đánh giá.
+Kết quả thử nghiệm cho thấy các đề xuất và cải tiến trong khoá luận là đáng ghi nhận và có thể chấp nhận được.
+
+Tác giả khoá luận đã trình bày báo cáo khoá luận gồm 6 chương và 2 phụ lục rõ ràng và hợp lý.
+Dĩ nhiên rằng, báo cáo hiện giờ tốt hơn nhiều so với báo cáo ban đầu sau khi gặp người phản biện.
+Điều đó cho thấy tác giả đã lắng nghe để hoàn chỉnh khoá luận này về mặt báo cáo và chương trình.
+
+Điểm hạn chế của khoá luận nằm ở chỗ giả định lỗi sai xuất hiện chỉ tại một tiếng khi xem xét.
+Trên thực tế lỗi sai có thể xuất hiện từ hai tiếng liền kề trở lên và giữa các lỗi sai có tác động qua lại lẫn nhau.
+
+Ngoài ra, do hướng tiếp cận dựa trên thống kê khiến cho những từ hiếm gặp hoặc thường sai do thói quen của đại đa số người không thể phát hiện lỗi được (chẳng hạn với cụm từ ``vô hình trung'').
+
+Dù vậy, tác giả đã thể hiện sự cố gắng, nền tảng kiến thức và các kỹ năng của mình để hoàn thành khoá luận tốt nghiệp đáp ứng yêu cầu một khoá luận tốt nghiệp cử nhân Công nghệ thông tin.
+
+\vfill
+
+\begin{flushleft}
+Khóa luận đáp ứng yêu cầu của Khóa luận cử nhân CNTT.
+\end{flushleft}
+
+\begin{center}
+\leavevmode{\parindent=6em\indent} Tp. HCM, ngày 21 tháng 07 năm 2015\\
+\leavevmode{\parindent=6em\indent} Giáo viên phản biện\\[2cm]
+\leavevmode{\parindent=6em\indent} \tenGVPB
+\end{center}
+
+\end{titlepage}
